@@ -5,5 +5,9 @@ let even = []
 let odd = []
 
 console.log (
-    numbers.filter(i => i % 2 === 0 )
+   even = numbers.filter(i => i % 2 === 0 ).sort ((a,b) => a-b)
+) 
+
+console.log (
+   odd = numbers.filter(i => i % 1 == 0 && i % 2 != 0).sort ((a,b) => a-b)
 )
